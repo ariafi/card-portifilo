@@ -15,5 +15,7 @@ _________________________________________
 	--cl2: #two Color To Hex or RGB;
 }
 ```
+- and next step is Change pictures `avatar.png` and `img.png`
+- and end step is change the `index.html` and cutsomize :)
 _________________________________________
 my discord server : [JOIN](https://discord.gg/tckXBhv3Rw)
