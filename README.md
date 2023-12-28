@@ -7,6 +7,9 @@ _________________________________________
 - Variable of Color in `style.css`
 - Responsive
 _________________________________________
+# Preview
+![Token Builder](https://github.com/Hoseinfi/card-portifilo/blob/main/img%20(%20intro%20).png)
+_________________________________________
 # Install
 - open `style.css` and change:
 ```css
