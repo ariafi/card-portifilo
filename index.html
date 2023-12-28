@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <title>Card Portifilo</title>
+  <script src="https://kit.fontawesome.com/0ce963a9b8.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<center>
+			<img src="img.png" class="banner">
+			<img src="avatar.png" class="avatar">
+		</center>
+		<h1>MoDeW</h1>
+		<p>My passion for web design and development...
+		<strong id="read-more">Read More &#8594;</strong></p>
+		<a href="javascript:void(0);"><i class="fa fa-instagram"></i></a>
+		<a href="javascript:void(0);"><i class="fab fa-discord"></i></a>
+		<a href="javascript:void(0);"><i class="fab fa-facebook"></i></a>
+		<a href="javascript:void(0);"><i class="fab fa-twitter"></i></a>
+		<a href="javascript:void(0);"><i class="fab fa-github"></i></a>
+		<a href="javascript:void(0);"><i class="fab fa-soundcloud"></i></a>
+		<a href="javascript:void(0);"><i class="fab fa-spotify"></i></a>
+		<div class="learned" id="learned">
+			<img src="icons/html.png">
+			<img src="icons/css.png">
+			<img src="icons/js.png">
+			<img src="icons/py.png">
+			<img src="icons/sql.png">
+			<img src="icons/php.png">
+			<img src="icons/csharp.png">
+		</div>
+	</div>
+	<script>
+	$(document).ready(function() {
+		$("#read-more").click(function() {
+			$("body").append("<div id='popup'><div id='popup-content'><a href='#' id='popup-close'><i class='fa fa-close'></i></a><h1 style='text-align: left;'>MoDeW's Biography</h1><div class='content'><p>My passion for web design and development began when I was in high school and started to tinker with creating my own websites. Since then, I have honed my skills and have become an experienced web designer. I love being able to take a client's vision and turn it into a functional and aesthetically pleasing website.<br>My design philosophy is centered around creating websites that are both visually appealing and user-friendly. I believe that a website should not only look great, but it should be easy to navigate and use as well. I strive to create websites that are tailored to each client's unique needs and goals.<br>In addition to my design skills, I am also proficient in web development languages such as HTML, CSS, and JavaScript. This allows me to not only create beautiful designs, but also to ensure that they are always functional and optimized for performance.<br>When I'm not designing and developing websites, you can find me exploring the outdoors or attending local meetups and conferences to continue improving my skills. I am always looking for new challenges and opportunities to learn and grow as a web designer.<br /><br />I was born in 2007 2 june</p></div></div></div>");
+		});
+		
+		$(document).on("click", "#popup-close", function() {
+			$("#popup").remove();
+		});
+	});
+	</script>
+</body>
+</html>
