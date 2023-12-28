@@ -6,6 +6,7 @@ _________________________________________
 - User Avatar
 - Variable of Color in `style.css`
 - Responsive
+- Background Animation
 _________________________________________
 # Preview
 ![Token Builder](https://github.com/Hoseinfi/card-portifilo/blob/main/img%20(%20intro%20).png)
