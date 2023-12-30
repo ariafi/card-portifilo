@@ -11,7 +11,7 @@ _________________________________________
 - Background Animation
 _________________________________________
 # Preview
-![Token Builder](https://github.com/Hoseinfi/card-portifilo/blob/main/img%20(%20intro%20).png)
+![img](https://github.com/Hoseinfi/card-portifilo/blob/main/img%20(%20intro%20).png)
 _________________________________________
 # Install
 - open `style.css` and change:
